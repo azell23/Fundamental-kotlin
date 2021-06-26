@@ -22,6 +22,10 @@ fun main() {
     var nama:String?= "hildan"
         nama = null
     firstname="ismail"
+    val a="mail ismail"
+
+    println(a.reversed())
+    println(a)
 
 
     println(firstname)

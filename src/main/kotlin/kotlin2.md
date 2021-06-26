@@ -1,17 +1,3 @@
-##membuat projek di intelij
- 1. Membuat projek
- 2. Buat nama projek
- 3. Tentukan lokasi dimana file akan disimpan
- 4. lalu finish
- 5. buka file projek,pilih src
- 6. klik kanan pilih kotlin file,lalu pilih file
-##HelloWorld
-```
-fun main() {
-    println("helloWorld")
-}
-```
-
 ##Tipe data number
 - Integer (Byte(8),Short(16),Int(32),Long(64))
 - floating(Float(32),Double(64))
