@@ -1,9 +1,9 @@
 fun main() {
     var a = 0
     while (a < 15){
-        println("perlungan $a")
+        println("perulangan $a")
         a++
-        if (a > 10){
+        if (a == 10){
             break
         }
     }
