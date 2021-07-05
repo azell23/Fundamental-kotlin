@@ -35,31 +35,32 @@ fun array(vararg angka:Int):Int{
     }
     return a
 }
-fun String.helo() =println("Hello $this")
+fun String.helo(): String = "Hello $this"
 infix fun String.to(type:String):String{
-    if(type == "UP"){
-        return this.toUpperCase()
+    return if(type == "UP"){
+       this.toUpperCase()
     } else{
-        return this.toLowerCase()
+         this.toLowerCase()
     }
 
 }
 fun main() {
-    nama()
-    nilai(80,85)
-    name("mail")
-    name("mail", "Ismail")
-    angka(angka2 = 20,angka3 = 30,angka5 = 50,angka4 = 40)
-    println(bagi("mail",0))
-    println(bagi("ismail",12))
-    single("mail",15)
-    println(array(10,10,10,10))
-    val name ="Hildan"
-    println(name.helo())
-    val name1 ="Rizky" to "UP"
-    println(name1)
-    fun namaa(name:String){
-        println("Nama $name")
-    }
-    namaa("Ramadhan")
+//    nama()
+//    nilai(80,85)
+//    name("mail")
+//    name("mail", "Ismail")
+//    angka(angka2 = 20,angka3 = 30,angka5 = 50,angka4 = 40)
+//    println(bagi("mail",0))
+//    println(bagi("ismail",12))
+//    single("mail",15)
+//    println(array(10,10,10,10))
+//    val name ="Hildan"
+//    println("ihal".helo())
+//    val name1 ="Rizky" to "UP"
+//    println(name1)
+//    fun namaa(name:String){
+//        println("Nama $name")
+//    }
+//    namaa("Ramadhan")
+    println("ijal".helo())
 }

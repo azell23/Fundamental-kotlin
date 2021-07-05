@@ -88,7 +88,7 @@ nama = null
 immutable data yang diakses untuk keperluan global(bisa diakses dimanapun)
 ```
 const val APP="belajar kotlin"
-fun main() {
+fun `Return IF WHEN`.main() {
 println("Welcome to $APP")
 }
 ```

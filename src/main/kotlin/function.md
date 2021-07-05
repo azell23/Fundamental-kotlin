@@ -1,12 +1,12 @@
 ##Function
-Blok kode yang sengaja dibuat agar bisa digunakan berulang ulang.Function yang wajib dibuat agar program kotlin dapat berjalan,yaitu function main.
+Blok kode yang sengaja dibuat agar bisa digunakan berulang ulang.Function yang wajib dibuat agar program kotlin dapat berjalan,yaitu function `Return IF WHEN`.main.
 
 Function dapat dieksekusi dengan memanggilnya menggunakan kata kunci nama functionnya
 ```kotlin
 fun nama() {
     println("Mail")
 }
-fun main() {
+fun `Return IF WHEN`.main() {
     nama()
 }
 ```
@@ -17,7 +17,7 @@ fun nilai(nilai1: Int, nilai2: Int){
     println("UTS $nilai1 UAS $nilai2")
 }
 
-fun main() {
+fun `Return IF WHEN`.main() {
     nilai(80,85)
 }
 ```
@@ -28,7 +28,7 @@ fun name(firstname: String, lastname: String ="I") {
     println("$firstname $lastname")
 }
 
-fun main() {
+fun `Return IF WHEN`.main() {
     name("mail")
     name("mail", "Ismail")
 }
@@ -37,7 +37,7 @@ fun main() {
 Jika ada function yang memiliki banyak parameter,kita akan kesulitan saat memanggil function tersebut,kita harus tahu urutan parameter di function tersebut.
 
 Ada fitur named argument yang bisa menyebutkan nama parameter saat memanggil function.
-```aidl
+```
 fun angka(angka1: Int,
           angka2: Int,
           angka3: Int,
@@ -50,7 +50,7 @@ fun angka(angka1: Int,
             "angka ke 5 = $angka5 ")
 }
 
-fun main() {
+fun `Return IF WHEN`.main() {
     angka(angka1 = 10,angka2 = 20,angka3 = 30,angka5 = 50,angka4 = 40)
 }
 ```
@@ -60,7 +60,7 @@ dia mengembalikan tipe data Unit,dimana unit adalah tanda bahwa function tersebu
 > penulisan unit dalam function tidak wajib
 ##function return type
 Digunakan untuk mengembalikan data
-```aidl
+```
 fun bagi(a:String, b:Int):String {
     if (b<=10){
         return "bocil"
@@ -70,7 +70,7 @@ fun bagi(a:String, b:Int):String {
     }
 }
 
-fun main() {
+fun `Return IF WHEN`.main() {
     println(bagi("mail",0))
     println(bagi("ismail",12))
 }
@@ -82,7 +82,7 @@ single expression function adalah deklarasi function hanya dengan satu baris,unt
 ```
 fun single(a:String,b:Int)= println("NAMA = $a umur = $b ")
 
-fun main() {
+fun `Return IF WHEN`.main() {
     single("mail",15)
 }
 ```
@@ -99,7 +99,7 @@ fun array(vararg angka:Int):Int{
     }
     return a
 }
-fun main() {
+fun `Return IF WHEN`.main() {
     println(array(10,10,10,10))
 }
 ```
@@ -108,7 +108,7 @@ Kemampuan menambahkan function pada tipe data yang sudah ada.Uuntuk membuat cuku
 jangan terlalu banyak digunakan,karena aka membuat program sulit dimengerti. Untuk mengakses dapat menggunakan kata kunci this
 ```
 fun String.helo() =println("Hello $this")
-fun main() {
+fun `Return IF WHEN`.main() {
     val name: String ="Hildan"
     println(name.helo())
 }
@@ -129,7 +129,7 @@ infix fun String.to(type:String):String{
     }
 
 }
-fun main() {
+fun `Return IF WHEN`.main() {
     val name1 ="Rizky" to "UP"
     println(name1)
 }
@@ -137,7 +137,7 @@ fun main() {
 ##Function Scope
 Ruang lingkup dimana sebuah function bisa diakses,jika ingin membatasi misalnya sebuah function hanya bisa diakses dalam function tertentu,maka kita membuat function di dalam function
 ```
-fun main() {
+fun `Return IF WHEN`.main() {
     fun namaa(name:String){
         println("Nama $name")
     }
