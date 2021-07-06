@@ -88,7 +88,7 @@ Function.nama = null
 immutable data yang diakses untuk keperluan global(bisa diakses dimanapun)
 ```
 const val APP="belajar kotlin"
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
 println("Welcome to $APP")
 }
 ```
