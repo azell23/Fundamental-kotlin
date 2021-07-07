@@ -1,12 +1,12 @@
 ##Function
-Blok kode yang sengaja dibuat agar bisa digunakan berulang ulang.Function yang wajib dibuat agar program kotlin dapat berjalan,yaitu function `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main.
+Blok kode yang sengaja dibuat agar bisa digunakan berulang ulang.Function yang wajib dibuat agar program kotlin dapat berjalan,yaitu function `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main.
 
 Function dapat dieksekusi dengan memanggilnya menggunakan kata kunci Function.nama functionnya
 ```kotlin
 fun Function.nama() {
     println("Mail")
 }
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main() {
     Function.nama()
 }
 ```
@@ -17,7 +17,7 @@ fun Function.nilai(nilai1: Int, nilai2: Int){
     println("UTS $nilai1 UAS $nilai2")
 }
 
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main() {
     Function.nilai(80,85)
 }
 ```
@@ -28,7 +28,7 @@ fun Function.name(firstname: String, lastname: String ="I") {
     println("$firstname $lastname")
 }
 
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main() {
     Function.name("mail")
     Function.name("mail", "Ismail")
 }
@@ -50,7 +50,7 @@ fun Function.angka(angka1: Int,
             "Function.angka ke 5 = $angka5 ")
 }
 
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main() {
     Function.angka(angka1 = 10,angka2 = 20,angka3 = 30,angka5 = 50,angka4 = 40)
 }
 ```
@@ -70,7 +70,7 @@ fun Function.bagi(a:String, b:Int):String {
     }
 }
 
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main() {
     println(Function.bagi("mail",0))
     println(Function.bagi("ismail",12))
 }
@@ -82,7 +82,7 @@ Function.single expression function adalah deklarasi function hanya dengan satu 
 ```
 fun Function.single(a:String,b:Int)= println("NAMA = $a umur = $b ")
 
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main() {
     Function.single("mail",15)
 }
 ```
@@ -99,7 +99,7 @@ fun Function.array(vararg Function.angka:Int):Int{
     }
     return a
 }
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main() {
     println(Function.array(10,10,10,10))
 }
 ```
@@ -108,7 +108,7 @@ Kemampuan menambahkan function pada tipe data yang sudah ada.Uuntuk membuat cuku
 jangan terlalu banyak digunakan,karena aka membuat program sulit dimengerti. Untuk mengakses dapat menggunakan kata kunci this
 ```
 fun String.Function.helo() =println("Hello $this")
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main() {
     val Function.name: String ="Hildan"
     println(Function.name.Function.helo())
 }
@@ -129,7 +129,7 @@ infix fun String.to(type:String):String{
     }
 
 }
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main() {
     val name1 ="Rizky" to "UP"
     println(name1)
 }
@@ -137,7 +137,7 @@ fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matema
 ##Function Scope
 Ruang lingkup dimana sebuah function bisa diakses,jika ingin membatasi misalnya sebuah function hanya bisa diakses dalam function tertentu,maka kita membuat function di dalam function
 ```
-fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.main() {
+fun `Return IF WHEN`.Array.`Break-Continue`.For.IfExpression.Perbandingan.Matematika.WhenExpression.While.Boolean.Range.Function.recursiveFunction.TailRecursive.main() {
     fun namaa(Function.name:String){
         println("Nama $Function.name")
     }

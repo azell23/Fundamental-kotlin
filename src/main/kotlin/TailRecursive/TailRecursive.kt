@@ -1,3 +1,5 @@
+package TailRecursive
+
 fun main() {
     tailrec fun display(value:Int){
         println(value)
