@@ -16,17 +16,16 @@ fun kanan(x:Int){
         a--
     }
 }
-fun aritmatika(awal:Int,akhir:Int,beda:Int){
+fun aritmatika(awal:Int,akhir:Int,beda:Int):Int{
+    var jml=0
     for(i in awal..akhir step beda){
-        print("$i+")
-
+        print("$i ")
+        jml+=i
     }
-    var n=akhir/beda
-    var jml=n/2*(2*awal+(n-1)*beda)
-    print(" = $jml")
-
+    return jml
 }
 fun main() {
     kanan(8)
+    println(aritmatika(1,10,1))
 }
 

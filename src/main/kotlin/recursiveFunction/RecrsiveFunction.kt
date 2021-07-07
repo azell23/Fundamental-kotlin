@@ -12,6 +12,7 @@ fun main() {
         return if(value==1)value.toInt()
             else{value*factorialrecursive(value-1)
         }
+        println("$value")
     }
     println(factorial(5))
     println(factorialrecursive(5))
