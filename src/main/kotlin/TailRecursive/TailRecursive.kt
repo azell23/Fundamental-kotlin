@@ -1,5 +1,4 @@
 package TailRecursive
-
 fun main() {
     tailrec fun display(value:Int){
         println(value)
@@ -8,17 +7,17 @@ fun main() {
         }
     }
     fun fibbonaci(n:Long) :Long{ //Recursive Function
-        return if (n<2)n else fibbonaci(n-1)+fibbonaci(n-2)
+        return if (n<2)n else fibbonaci(n-2)+fibbonaci(n-1)
     }
     tailrec fun fibonaci(n:Int,a:Int=0,b:Int=1):Int{ //Tailrec Recursive function
         return when(n){
             0 -> a
             1 -> b
-            else -> fibonaci(n-1,a+b,b)
+            else -> fibonaci(n-1,b,a+b)
         }
 
     }
-    println(fibonaci(11))
-    println(fibbonaci(4))
+    println(fibbonaci(5))
+    println(fibonaci(5))
 
 }
