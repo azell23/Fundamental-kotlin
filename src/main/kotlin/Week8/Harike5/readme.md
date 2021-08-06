@@ -1,0 +1,2 @@
+## Properties Overriding
+Pada class child selain membuat ulang function kita juga bisa membuat ulang propertiesnya.Sama seperti function overriding,properties juga final secara standar dan membutuhkan kata kunci open agar bisa dibuat ulang.
