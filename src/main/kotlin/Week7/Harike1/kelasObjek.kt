@@ -1,4 +1,4 @@
-package Wekk7.Harike1
+package Week7.Harike1
 
 class Kelas { //nama class
     val nama="Hildan"

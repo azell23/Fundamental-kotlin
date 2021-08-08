@@ -1,4 +1,4 @@
-package Wekk7.Harike3
+package Week7.Harike3
 
 class seconstructor(awal:String,akhir:String,umur:Int) {
     var nama=awal.toUpperCase()

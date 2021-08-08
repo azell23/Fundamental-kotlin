@@ -1,4 +1,4 @@
-package Wekk7.Harike4
+package Week7.Harike4
 
 class propertiesCons(var nama:String,var umur:Int) {
 

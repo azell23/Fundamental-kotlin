@@ -1,4 +1,4 @@
-package Wekk7.Harike2
+package Week7.Harike2
 
 class constructor(awal:String,akhir:String) {
     var nama=awal.toUpperCase()

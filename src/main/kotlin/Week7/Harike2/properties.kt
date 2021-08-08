@@ -1,4 +1,4 @@
-package Wekk7.Harike2
+package Week7.Harike2
 
 class properties {
     var awal="Hildan"

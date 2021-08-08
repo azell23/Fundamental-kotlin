@@ -1,4 +1,4 @@
-package Wekk7.Harike5
+package Week7.Harike5
 
 class function(var nama:String="",var umur:Int) {
     fun id(){
